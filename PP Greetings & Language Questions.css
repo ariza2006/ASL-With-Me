@@ -1,0 +1,72 @@
+body{
+    background-color: floralwhite;
+}
+
+a{
+    text-decoration: none;
+    color: #FF7177;
+    padding: 18px;
+    font-size: 20px;
+    float: inherit;
+    background-color: floralwhite;
+    font-family: monospace;
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: black;
+}
+
+
+li{ 
+    display: inline;
+      float: left;
+}
+
+li a{
+      display: block;
+  padding: 8px;
+  background-color: floralwhite;
+  display: block;
+  color:darkslategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: inherit 
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: floralwhite;
+ position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+li a:hover {
+  background-color: black;
+    color: black;
+}
+h1{
+    background-color: floralwhite;
+    color: #F3ED9C;
+    font-size: 50px;
+}
+section{
+    width: 100%;
+}
+section a{
+    width: 30%;
+    margin-left: 30%;
+}
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: monospace,monospace; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+

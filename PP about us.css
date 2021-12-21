@@ -1,0 +1,68 @@
+body{
+    background-color: floralwhite;
+}
+
+a{
+    text-decoration: none;
+    color: #FF7177;
+    padding: 18px;
+    font-size: 20px;
+    float: inherit;
+    background-color: floralwhite;
+    font-family: monospace;
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: black;
+}
+
+
+li{ 
+    display: inline;
+      float: left;
+}
+
+li a{
+      display: block;
+  padding: 8px;
+  background-color: floralwhite;
+  display: block;
+  color:darkslategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: inherit 
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: floralwhite;
+ position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+li a:hover {
+  background-color: black;
+    color: black;
+}
+
+p{
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+h1{
+    color: black;
+    font-family: monospace;
+    padding-left: 100px;
+    padding-right: 150px;
+
+
+}
