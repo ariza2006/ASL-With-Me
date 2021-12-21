@@ -1,0 +1,79 @@
+<html>
+    <head>
+    <title>Menu</title>
+    <meta name="viewport" content="width: device-width; initial scale:1.0">
+    <link rel="stylesheet"
+          href="css/PP%20menu%20page.css">
+    </head>
+    <body>
+<ul>
+    <li><a style="color: #FF7177" href="#active">Menu</a></li>
+    <li><a style="color: #B7AD33"
+           href="src/PP%20Greetings%20&%20Language%20Questions.html">Greetings and Language Questions</a></li>
+    <li><a style="color: #88B7DE" href="src/PP%20Directions%20&%20Transportation.html">Key Terms</a></li>
+    <li><a style="color: #FF7177" href="src/PP%20Shopping%20&%20Food.html">Shopping, Food and Transportation</a></li>   <li><a style="color: #B7AD33" href="src/PP%20Accomodation%20and%20Emergencies.html">Emergencies</a></li>=
+    
+    </ul>
+        
+        
+            <br><br><br><br><br><br><br><br><br>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 2</div>
+    <a href ="src/PP%20Importance%20&%20Charities.html"><img src="images/asl%20menu.png" style="width:1000px"></a>
+    <div class="text">ASL Importance and Donations</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 2</div>
+      <a href ="src/PP%20about%20us.html"><img src="images/abt%20the%20site.png" style="width: 100%"> </a>
+    <div class="text">About The Site</div>
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+    
+        
+        
+    <!javascript>    
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+    
+    </body>
+</html>
